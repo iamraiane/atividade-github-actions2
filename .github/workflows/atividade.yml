@@ -1,0 +1,12 @@
+name: Minha primeira Action
+
+on: 
+  push
+  
+jobs:
+  mensagem:
+    runs-on: ubutu-latest
+
+    steps:
+      - name: Mostrar Mensagem
+        run: echo "Olá! O Github Action está funcionando"
